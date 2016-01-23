@@ -1,0 +1,58 @@
+{
+  "name": "view-json",
+  "description": "View plugin for templates.js, assemble or verb, that calls JSON.parse on .json files and keeps `file.content` in sync with `file.json.data`.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/view-json",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/view-json",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/view-json/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "get-value": "^2.0.3",
+    "mixin-deep": "^1.1.3",
+    "set-value": "^0.3.3"
+  },
+  "devDependencies": {
+    "gulp-format-md": "*",
+    "mocha": "^2.3.4",
+    "templates": "^0.11.0"
+  },
+  "keywords": [],
+  "verb": {
+    "layout": "default",
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "assemble",
+        "base",
+        "generate",
+        "templates",
+        "update",
+        "verb",
+        "vinyl"
+      ]
+    },
+    "toc": false,
+    "reflinks": [
+      "assemble",
+      "generate",
+      "templates",
+      "update",
+      "verb"
+    ]
+  }
+}
